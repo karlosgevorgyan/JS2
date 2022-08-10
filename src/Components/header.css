@@ -1,0 +1,85 @@
+.Header-name {
+  border: solid 2px burlywood;
+  width: 100%;
+  height: 300px;
+  background: url("./img/motMoto.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Header-name > p {
+  text-align: center;
+  color: rgb(150, 149, 139);
+  font-size: 3em;
+  font-family: fantasy;
+}
+.menu-div {
+  display: flex;
+  width: 100%;
+  height: 90px;
+  background: rgb(67, 64, 64);
+}
+.menu-1 {
+  display: flex;
+  width: 50%;
+  height: 90%;
+}
+.menu-1 > div {
+  width: 25%;
+  height: 90%;
+}
+*
+.menu-name{
+  position: relative;
+  top: 20px;
+  color: white;
+}
+.menu-2 {
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+  height: 90%;
+}
+.menu-2 > div{
+  display: flex;
+  justify-content: flex-end;
+  width: auto;
+  height: 90%;
+}
+.menu-2-ul{
+  display: flex;
+}
+.menu-2-ul > li {
+  list-style-type: none;
+  margin: 8px;
+}
+.menu-2-ul > li > a {
+  display: flex;
+  color: burlywood;
+  text-decoration: overline 4px;
+  font-size: 1.2em;
+}
+.menu-2-ul > li > a:hover {
+  color: rgb(186, 75, 20);
+}
+.App-logo-1 {
+  width: 120px;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo-1 {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+  @media screen and (max-width: 700px) {
+    .App-logo-1 {
+      right: 22vmin;
+    }
+    .menu-1 > div {
+      width: 35%;
+      height: 90%;
+    }
+    .menu-2-ul > li > a {
+      text-decoration: overline 2px;
+      font-size: 1em;
+    }
+  }

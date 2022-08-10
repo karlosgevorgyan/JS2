@@ -1,0 +1,60 @@
+.Content{
+    display: flex;
+    background-image: url("./img/MOT.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+  .div-1{
+    display: flex;
+  }
+  .div-1 > div {
+    float: left;
+    padding-top: 30px;
+    width: 25vmin;
+    height: 70px;
+    color: rgb(7, 93, 89);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  .App-logo {
+    position: relative;
+    right: 13vmin;
+    height: 13vmin;
+    pointer-events: none;
+  }
+  .div-2{
+    display: flex;
+    justify-content:flex-end;
+    width: 200vmin;
+  }
+  .div-2 > div {
+    padding-top: 30px;
+    background: rgb(59, 120, 117);
+    opacity: 0.5;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  .div-2 > div > ul {
+    list-style: none;
+  }
+ul >li {
+  font-size: 20px;
+  /* margin: 5px; */
+  }
+  a{
+    
+  }
+a:hover{
+    color: rgb(186, 75, 20);
+  }
+
+  @media screen and (max-width: 700px) {
+    .Content> ul > li{
+      font-size: 17px;
+    }
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 4s linear;
+    }
+  }
